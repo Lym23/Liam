@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f2937;
+}
+
+main {
+  padding: 16px;
+  padding-bottom: 88px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.status-bar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-top: 1px solid #d1d5db;
+  background: #f8fafc;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  min-width: 72px;
+}
+
+.label {
+  font-size: 12px;
+  color: #6b7280;
+}

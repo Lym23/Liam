@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>数字统计助手</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+<body>
+  <main>
+    <h1>数字统计助手</h1>
+    <p>请在文档中选中一个或多个数字（支持千分位逗号），统计结果会实时展示。</p>
+  </main>
+
+  <section class="status-bar" aria-live="polite">
+    <div class="metric"><span class="label">求和</span><span id="sum">0</span></div>
+    <div class="metric"><span class="label">平均</span><span id="avg">0</span></div>
+    <div class="metric"><span class="label">计数</span><span id="count">0</span></div>
+  </section>
+
+  <script src="taskpane.js"></script>
+</body>
+</html>
